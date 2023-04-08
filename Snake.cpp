@@ -1,5 +1,5 @@
 #include "Snake.h"
-
+#include "GameField.h"
 
 void Snake::SnakeMovement()
 {
@@ -43,4 +43,9 @@ void Snake::SnakeMovement()
 	{
 		snakeY = 0;
 	}
+}
+
+void Snake::SnakeChangeMovement(int newDirection)
+{
+	//if(newDirection == )
 }

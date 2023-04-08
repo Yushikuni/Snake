@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+#include "GameField.h"
 
+using namespace std;
 int main()
 {
+    int x, y;
     std::cout << "Hello World!\n";
+    cout << "Zadej sirku herniho pole:\n";
+    cin >> x;
+    cout << "Zadej vysku herniho pole:\n";
+    cin >> y;
+
+    GameField::renderGamingField(x, y);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

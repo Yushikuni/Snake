@@ -1,4 +1,6 @@
 #pragma once
+#include "GameField.h"
+
 class Snake
 {
 protected:
@@ -8,6 +10,6 @@ public:
 	int snakeDirectiton;
 
 	void SnakeMovement();
-	void SnakeChangeMovement(int nowDirection);
+	void SnakeChangeMovement(int newDirection);
 };
 
